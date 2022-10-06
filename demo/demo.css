@@ -1,0 +1,141 @@
+/*
+* Base Template
+* Combines HTML5 Boilerplate & Boostrap. Includes some basic templating.
+* Authored by Stephen Shaw (shshaw@gmail.com)
+*/
+
+/* @group Basics */
+/* 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  color: #333333;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  margin: 0;
+  padding: 4em 0 4em 20%;
+}
+
+a {
+  color: #da0d25;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #f22840;
+  text-decoration: none;
+}
+p { margin: 0 0 20px; }
+
+h1,h2{
+  margin: 10px 0;
+  font-weight: 500;
+  line-height: 40px;
+  color: inherit;
+  text-align: center;
+}
+h1 small,
+h2 small {
+  font-weight: 400;
+  line-height: 1;
+  color: #8d8d8d;
+}
+h1 { font-size: 28px; }
+h2 { font-size: 22px; }
+
+.main-header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  background: #eee;
+  padding: 1em;
+}
+
+.main-header__nav {
+  border-top: solid 1px #ccc;
+  margin: 1em -1em;
+}
+
+.main-header__nav a {
+  display: block;
+  padding: 0.5em 1em;
+  border-bottom: solid 1px #ddd;
+}
+
+.main-header__nav a:hover,
+.main-header__nav a:focus {
+  color: #eee;
+  background: #da0d25;
+}
+
+@media (max-width: 800px) {
+  body { padding: 0; }
+
+  .main-header {
+    position: relative;
+    width: 100%;
+  }
+
+  .main-header__nav a { display: inline-block; border: none; }
+} */
+
+
+/* .intro {
+  padding: 4em 2em;
+} */
+
+
+.demo {
+  padding: 0 2em;
+  margin: 100px auto;
+}
+
+#coverflow{
+  margin: 0px auto;
+  padding: 6em 2em;
+}
+
+
+.flip-items li{
+  width: 500px;
+}
+
+
+.image {
+  -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+}
+
+@media(max-width : 720px){
+
+  #coverflow{
+    margin: 0px auto;
+    padding: 3em 1em;
+  }
+
+
+  .flip-items li{
+    width: 200px;
+  }
+  
+  .image {
+
+    width: 100%;
+  }
+
+}
+
