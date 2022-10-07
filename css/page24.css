@@ -1,0 +1,33 @@
+.Coordinator{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.CoordinatorCard{
+    margin: 20px 50px 50px 20px;
+    width: 35%;
+}
+
+.SocialLinks{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SocialLinks div{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.items1{
+    margin-left: 30px;
+}
+
+.items2{
+    margin-right: 30px;
+}
+
+
+
